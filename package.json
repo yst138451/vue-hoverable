@@ -1,0 +1,39 @@
+{
+  "name": "@yst/vue-hoverable",
+  "description": "Lightweight Vue utility for listening to mouse hover",
+  "version": "1.0.0",
+  "author": "Yom S <kodemoar@gmail.com>",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "plugin",
+    "hover",
+    "hoverable"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-hoverable.min.js",
+  "module": "src/index.js",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yst138451/vue-hoverable.git"
+  },
+  "homepage": "https://github.com/yst138451/vue-hoverable#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^7.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
