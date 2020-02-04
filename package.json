@@ -1,8 +1,8 @@
 {
   "name": "@yst/vue-hoverable",
   "description": "Lightweight Vue utility for listening to mouse hover",
-  "version": "1.0.0",
-  "author": "Yom S <kodemoar@gmail.com>",
+  "version": "1.0.1",
+  "author": "yst <kodemoar@gmail.com>",
   "keywords": [
     "vue",
     "vuejs",
@@ -35,5 +35,8 @@
     "cross-env": "^7.0.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.2"
   }
 }

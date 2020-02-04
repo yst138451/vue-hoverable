@@ -16,26 +16,23 @@ Vue.use(Hoverable);
 ```
 
 ## Options
-### Scoped slots
-#### Name
-`on`  
 
-#### Description  
+### Scoped slots
+
+#### `on.hover`  
+- type: `boolean`
+
 Provides an info of the current mouse state ("entering" or "leaving").
 
-#### Props
-```js
-{
-  hover: boolean
-}
-```
 
 ## Usage
-It doesn't wrap the target element/component with another element, because these mouse events are attached directly to the target.
+It doesn't wrap the target element/component with another one, because these mouse events are attached directly onto the target. So in the following case, the button will have mouse-hover and click handlers attached to it. 
 
 ```html
 <hoverable #on="{ hover }">
-  <button :style="{ backgroundColor: hover ? 'green' : 'blue' }">
+  <button 
+    :style="{ backgroundColor: hover ? 'green' : 'blue' }"
+    @click="handleClick">
     Click me
   </button>
 </hoverable>

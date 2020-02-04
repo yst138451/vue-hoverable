@@ -1,4 +1,4 @@
-const merge = Object.assign;
+import merge from 'lodash.merge';
 
 export default {
   name: 'VueHoverable',
@@ -12,11 +12,9 @@ export default {
       hover: this.hover
     });
 
-    merge(vnode.data, {
-      on: {
-        mouseenter: () => this.hover = true,
-        mouseleave: () => this.hover = false
-      }
+    merge(vnode.data.on, {
+      mouseenter: () => this.hover = true,
+      mouseleave: () => this.hover = false
     });
 
     return vnode;
