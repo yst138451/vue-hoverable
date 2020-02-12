@@ -1,7 +1,7 @@
 import merge from 'lodash.merge';
 
 export default {
-  name: 'VueHoverable',
+  name: 'Hoverable',
 
   data: () => ({
     hover: false

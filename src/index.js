@@ -2,6 +2,8 @@ import Hoverable from './vue-hoverable';
 
 export default {
   install(Vue) {
-    Vue.component('hoverable', Hoverable);
+    Vue.component(Hoverable.name, Hoverable);
   }
 }
+
+export { Hoverable }
