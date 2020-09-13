@@ -1,7 +1,7 @@
 {
   "name": "@yst/vue-hoverable",
   "description": "Lightweight Vue utility for listening to mouse hover",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "yst <kodemoar@gmail.com>",
   "keywords": [
     "vue",

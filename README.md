@@ -2,8 +2,15 @@
 Lightweight Vue utility for listening to mouse hover (`mouseenter` and `mouseleave`).
 
 ## Installation
+
+#### NPM
 ```bash
-npm install @yst/vue-hoverable
+$ npm install @yst/vue-hoverable
+```
+
+#### Yarn
+```bash
+$ yarn add @yst/vue-hoverable
 ```
 
 Import and install it as plugin:
@@ -37,6 +44,3 @@ It doesn't wrap the target element/component with another one, because these mou
   </button>
 </hoverable>
 ```
-
-## License
-[MIT](http://opensource.org/licenses/MIT)
